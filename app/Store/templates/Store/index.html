@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>this is a cat room</title>
+  </head>
+  <body>
+    <h1>meow 🐱</h1>
+    {% for cat in cats %}
+
+      <h3>name: {{ cat.name }}</h3>
+      <!-- <img src="{{ cat.img_url }}" alt=""> -->
+    {% endfor %}
+  </body>
+</html>
