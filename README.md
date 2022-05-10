@@ -8,3 +8,4 @@ https://pypi.org/search/?q=django
 https://hub.docker.com/_/python?tab=tags&page=1&name=alpine
 <!-- якоря - на что смотреть -->
 **3.9.12-alpine3.15**
+
