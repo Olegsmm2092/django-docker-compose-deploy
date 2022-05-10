@@ -5,4 +5,6 @@ from .models import eBook
 
 def cat_room(request):
     cats = {'cats': eBook.objects.all()}
-    return render(request, "Store\index2.html", cats)
+    # text = 'any'
+    return render(request, "Store\index.html", cats)
+    # return HttpResponse(request, text)

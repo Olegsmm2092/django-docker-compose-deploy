@@ -8,8 +8,10 @@
     <h1>meow 🐱</h1>
     {% for cat in cats %}
 
-      <h3>name: {{ cat.name }}</h3>
-      <!-- <img src="{{ cat.img_url }}" alt=""> -->
+      <h3>name: {{ cat.title }}</h3>
+      <img src="{{ cat.img_url }}" alt="">
+      <h3>Price: ${{ cat.price }}</h3>
+
     {% endfor %}
   </body>
 </html>
